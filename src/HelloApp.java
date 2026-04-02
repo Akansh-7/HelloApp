@@ -1,5 +1,10 @@
-public class UC1 {
+public class UC2 {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        if (args.length == 0) {
+            System.out.println("Hello, Prince Raj!");
+            return;
+        }
+        String name = args[0];
+        System.out.println("Hello, " + name + "!");
     }
 }
